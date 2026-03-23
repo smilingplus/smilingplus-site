@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SmilingPlus | Animation</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="bg-grid" aria-hidden="true"></div>
+    <header class="site-header">
+      <a class="brand" href="index.html">😄 SmilingPlus</a>
+      <button class="menu-toggle" aria-label="Toggle navigation">☰</button>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="schedule.html">Schedule</a>
+        <a href="games.html">Games</a>
+        <a href="animation.html" class="active">Animation</a>
+        <a href="info.html">Info</a>
+        <a href="subscribe.html">Subscribe</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="card">
+        <p class="kicker">CSS + JS ANIMATION</p>
+        <h1>Smiling Fan Hits Subscribe</h1>
+        <p>Press play to run a short looped scene built with HTML, CSS, and JavaScript.</p>
+      </section>
+
+      <section class="card animation-stage">
+        <div class="smiley" id="smileyFace" aria-label="smiling animated character">
+          <span class="eye left"></span>
+          <span class="eye right"></span>
+          <span class="mouth"></span>
+        </div>
+        <button class="subscribe-anim-btn" id="animSubscribe">SUBSCRIBE</button>
+        <button class="btn btn-ghost" id="playAnim">▶ Play Animation</button>
+      </section>
+    </main>
+
+    <footer>
+      <p>Built with pure CSS transforms + JavaScript timing.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
